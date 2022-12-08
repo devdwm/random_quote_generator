@@ -69,7 +69,7 @@ function printQuote(){
   //If the quote contains a year, add it to our html
   if('year' in quote)
   {
-    string += `<span class="citation">${quote.year}</span>`;
+    string += `<span class="year">${quote.year}</span>`;
   }
   // close our html
   string += '</p>'
